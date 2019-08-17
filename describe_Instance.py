@@ -25,7 +25,7 @@ ec2 = boto3.client("ec2")
 reservations =   ec2.describe_instances()
 mytags = [{
     "Key" : "Name",
-       "Value" : "Mehdi"
+       "Value" : "toto"
     },
     {
        "Key" : "APP",
